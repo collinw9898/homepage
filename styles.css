@@ -1,0 +1,53 @@
+h2 {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+body {
+    background-color: #D5EEFF;
+}
+
+.container{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.link-box {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+
+    width: 15%;
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+    background-color: #78BBE6;
+}
+
+.link-header {
+    background-color: #FF895D;
+    color: #1B435D;
+
+    border-bottom: 1px solid #1B435D;
+
+    margin: 0;
+    padding: 5px;
+}
+
+.link-content, a, li {
+    padding: 5px;
+    color:  #1B435D;
+}
+
+#header {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+
+    margin: 5%;
+}

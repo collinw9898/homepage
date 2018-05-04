@@ -1,10 +1,5 @@
 /* Colors taken from colorhunt.co */
 
-ul {
-    list-style-type: none;
-    display: inline;
-}
-
 body {
     /* Background color of the entire page */
     background-color: #FEFAEC;
@@ -28,7 +23,7 @@ a {
     padding: 5px;
     text-decoration: none;
 
-    /* Color of links in the box, same color as text */
+    /* Color of links, same color as text */
     color: #625772;
 }
 

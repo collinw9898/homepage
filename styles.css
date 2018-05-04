@@ -1,3 +1,5 @@
+/* Colors taken from colorhunt.co */
+
 ul {
     list-style-type: none;
     display: inline;
@@ -5,49 +7,31 @@ ul {
 
 body {
     /* Background color of the entire page */
-    background-color: #F4F9F4;
+    background-color: #FEFAEC;
 }
 
-.container{
-    text-align: center;
+.links {
+    margin-left: 35%;
+    font-size: 18px;
     font-family: 'Roboto Mono', monospace;
+    color: #625772;
 }
 
-.link-box {
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-
-    width: 15%;
-
-    margin-left: 3%;
-    margin-right: 3%;
-
-    /* Background color of the box */
-    background-color: #C4E3CB;
-
-    /* Text Color */
-    color: #616161;
+.row {
+    text-align: left;
+    margin: 8px;
 }
 
-.link-header {
-    font-size: 30px;
-
-    /* Header color */
-    background-color: #8AAE92;
-
-    /* Bottom border of the header, same color as text */
-    border-bottom: 1px solid #616161;
-
-    margin: 0;
-    padding: 5px;
-}
-
-a, li {
+a {
     padding: 5px;
 
     /* Color of links in the box, same color as text */
-    color: #616161;
+    color: #625772;
+}
+
+#line {
+    display: inline-block;
+    color: #F38181;
 }
 
 #header {
@@ -56,7 +40,7 @@ a, li {
     font-family: 'Pacifico', cursive;
 
     /* Header, same color as text */
-    color: #616161;
+    color: #625772;
 
     margin: 5%;
 }
